@@ -16,7 +16,7 @@
 
 package io.github.jidcoo.lce.base.strategy;
 
-import io.github.jidcoo.lce.base.intf.Strategizable;
+import io.github.jidcoo.lce.base.interfaces.Strategizable;
 
 import java.lang.reflect.Type;
 import java.util.Map;

@@ -16,7 +16,7 @@
 
 package io.github.jidcoo.lce.base.utils;
 
-import io.github.jidcoo.lce.base.intf.Order;
+import io.github.jidcoo.lce.base.interfaces.Order;
 
 import java.util.Comparator;
 import java.util.List;

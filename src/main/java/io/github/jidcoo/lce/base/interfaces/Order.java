@@ -14,26 +14,24 @@
  * limitations under the License.
  */
 
-package io.github.jidcoo.lce.base.intf;
+package io.github.jidcoo.lce.base.interfaces;
 
 /**
- * <p>OutputConsumer is an output consumer. </p>
- * <p>It will consume a string method output source. </p>
+ * <p>Order is an interface related to order.  </p>
+ * <p>It's used to support object sorting functionality.
+ * The larger the int returned by the {@link #getOrder()}
+ * method, the higher the priority or the order
+ * of the object. </p>
  *
  * @author Jidcoo
- * @apiNote Please do not forget to implement the
- *          {@link #close()} method for {@link AutoCloseable}.
- *          We will call the {@link #close()} method
- *          at the appropriate time to close
- *          the resources used.
  * @since 1.0.0
  */
-public interface OutputConsumer extends AutoCloseable, Order {
+public interface Order {
 
     /**
-     * Consume a string output from method calls.
+     * Get the order of the object.
      *
-     * @param output a string output.
+     * @return the int order of the object.
      */
-    void consumeNextOutput(String output);
+    int getOrder();
 }
