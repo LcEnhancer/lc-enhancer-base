@@ -8,9 +8,9 @@
     <artifactId>lc-enhancer-base</artifactId>
     <packaging>jar</packaging>
 
-    <description>A local debugging enhancer for Leetcode algorithm problems in Java.</description>
-    <url>https://github.com/Jidcoo/LeetcodeJavaDebugEnhancer</url>
-    <name>LeetcodeJavaDebugEnhancer</name>
+    <description>LcEnhancer base library.</description>
+    <url>https://github.com/LcEnhancer/lc-enhancer-base</url>
+    <name>LcEnhancerBase</name>
     <version>1.0.0</version>
 
     <properties>
@@ -24,13 +24,13 @@
 
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/Jidcoo/LeetcodeJavaDebugEnhancer/issues</url>
+        <url>https://github.com/LcEnhancer/lc-enhancer-base/issues</url>
     </issueManagement>
 
     <scm>
-        <connection>scm:git:https://github.com/Jidcoo/LeetcodeJavaDebugEnhancer.git</connection>
-        <developerConnection>scm:git:git@github.com:Jidcoo/LeetcodeJavaDebugEnhancer.git</developerConnection>
-        <url>https://github.com/Jidcoo/LeetcodeJavaDebugEnhancer</url>
+        <connection>scm:git:https://github.com/LcEnhancer/lc-enhancer-base/.git</connection>
+        <developerConnection>scm:git:git@github.com:LcEnhancer/lc-enhancer-base.git</developerConnection>
+        <url>https://github.com/LcEnhancer/lc-enhancer-base/</url>
     </scm>
 
     <licenses>
@@ -46,7 +46,7 @@
             <id>Jidcoo</id>
             <name>Jidcoo</name>
             <email>jidcoo@163.com</email>
-            <organizationUrl>https://github.com/Jidcoo</organizationUrl>
+            <organizationUrl>https://github.com/LcEnhancer</organizationUrl>
             <roles>
                 <role>owner</role>
                 <role>developer</role>
