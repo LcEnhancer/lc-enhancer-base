@@ -16,7 +16,7 @@
 
 package io.github.jidcoo.lce.base.proxy;
 
-import io.github.jidcoo.lce.base.intf.ProxyPointInterceptor;
+import io.github.jidcoo.lce.base.interfaces.ProxyPointInterceptor;
 import io.github.jidcoo.lce.base.utils.AssertUtil;
 
 import java.util.Objects;

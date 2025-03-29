@@ -17,7 +17,7 @@
 package io.github.jidcoo.lce.base.strategy;
 
 import io.github.jidcoo.lce.base.exception.ParameterAcceptStrategyExceptionTracer;
-import io.github.jidcoo.lce.base.intf.Strategizable;
+import io.github.jidcoo.lce.base.interfaces.Strategizable;
 import io.github.jidcoo.lce.base.utils.TypeUtil;
 
 import java.lang.reflect.Type;

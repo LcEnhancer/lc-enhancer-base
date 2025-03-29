@@ -1,6 +1,8 @@
 ## LcEnhancer base library
 
-<p align="center">
+Base java library for LcEnhancer project.
+
+<p align="left">
  <a href="LICENSE">
   <img alt="License" src="https://img.shields.io/github/license/LcEnhancer/lc-enhancer-base?label=License">
  </a>
@@ -13,8 +15,8 @@
  <a href="https://github.com/LcEnhancer/lc-enhancer-base/releases">
   <img alt="GitHub Release" src="https://img.shields.io/github/v/release/LcEnhancer/lc-enhancer-base?label=Release">
  </a>
- <a href="https://central.sonatype.com/artifact/io.github.jidcoo/leetcode-java-debug-enhancer">
-  <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/io.github.jidcoo/leetcode-java-debug-enhancer?label=Maven%20Central"> 
+ <a href="https://central.sonatype.com/artifact/io.github.jidcoo/lc-enhancer-base">
+  <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/io.github.jidcoo/lc-enhancer-base?label=Maven%20Central"> 
  </a>
  <a href="https://github.com/LcEnhancer/lc-enhancer-base/issues?query=is%3Aissue&label=issue">
   <img alt="GitHub Issues" src="https://img.shields.io/github/issues/LcEnhancer/lc-enhancer-base?label=Issue">

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.github.jidcoo.lce.base.intf;
+package io.github.jidcoo.lce.base.interfaces;
 
 import io.github.jidcoo.lce.base.proxy.ProxyPointParameterView;
 
