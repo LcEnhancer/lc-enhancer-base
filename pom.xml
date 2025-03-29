@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.lc-enhancer</groupId>
+    <groupId>io.github.lcenhancer</groupId>
     <artifactId>lc-enhancer-base</artifactId>
     <packaging>jar</packaging>
 
     <description>LcEnhancer base library.</description>
-    <url>https://github.com/lc-enhancer/lc-enhancer-base</url>
+    <url>https://github.com/lcenhancer/lc-enhancer-base</url>
     <name>lc-enhancer-base</name>
     <version>1.0.0</version>
 
@@ -24,13 +24,13 @@
 
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/lc-enhancer/lc-enhancer-base/issues</url>
+        <url>https://github.com/lcenhancer/lc-enhancer-base/issues</url>
     </issueManagement>
 
     <scm>
-        <connection>scm:git:https://github.com/lc-enhancer/lc-enhancer-base/.git</connection>
-        <developerConnection>scm:git:git@github.com:lc-enhancer/lc-enhancer-base.git</developerConnection>
-        <url>https://github.com/lc-enhancer/lc-enhancer-base/</url>
+        <connection>scm:git:https://github.com/lcenhancer/lc-enhancer-base/.git</connection>
+        <developerConnection>scm:git:git@github.com:lcenhancer/lc-enhancer-base.git</developerConnection>
+        <url>https://github.com/lcenhancer/lc-enhancer-base/</url>
     </scm>
 
     <licenses>
@@ -46,7 +46,7 @@
             <id>Jidcoo</id>
             <name>Jidcoo</name>
             <email>jidcoo@163.com</email>
-            <organizationUrl>https://github.com/LcEnhancer</organizationUrl>
+            <organizationUrl>https://github.com/lcenhancer</organizationUrl>
             <roles>
                 <role>owner</role>
                 <role>developer</role>
