@@ -10,7 +10,7 @@
 
     <description>LcEnhancer base library.</description>
     <url>https://github.com/LcEnhancer/lc-enhancer-base</url>
-    <name>LcEnhancerBase</name>
+    <name>lc-enhancer-base</name>
     <version>1.0.0</version>
 
     <properties>
