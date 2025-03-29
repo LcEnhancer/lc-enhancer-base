@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <description>LcEnhancer base library.</description>
-    <url>https://github.com/LcEnhancer/lc-enhancer-base</url>
+    <url>https://github.com/lc-enhancer/lc-enhancer-base</url>
     <name>lc-enhancer-base</name>
     <version>1.0.0</version>
 
@@ -24,13 +24,13 @@
 
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/LcEnhancer/lc-enhancer-base/issues</url>
+        <url>https://github.com/lc-enhancer/lc-enhancer-base/issues</url>
     </issueManagement>
 
     <scm>
-        <connection>scm:git:https://github.com/LcEnhancer/lc-enhancer-base/.git</connection>
-        <developerConnection>scm:git:git@github.com:LcEnhancer/lc-enhancer-base.git</developerConnection>
-        <url>https://github.com/LcEnhancer/lc-enhancer-base/</url>
+        <connection>scm:git:https://github.com/lc-enhancer/lc-enhancer-base/.git</connection>
+        <developerConnection>scm:git:git@github.com:lc-enhancer/lc-enhancer-base.git</developerConnection>
+        <url>https://github.com/lc-enhancer/lc-enhancer-base/</url>
     </scm>
 
     <licenses>
