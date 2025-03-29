@@ -11,7 +11,7 @@
     <description>LcEnhancer base library.</description>
     <url>https://github.com/LcEnhancer/lc-enhancer-base</url>
     <name>LcEnhancerBase</name>
-    <version>1.0.0</version>
+    <version>1.0.0-snapshot</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
