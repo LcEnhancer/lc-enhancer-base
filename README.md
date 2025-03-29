@@ -1,6 +1,8 @@
 ## LcEnhancer base library
 
-<p align="center">
+Base java library for LcEnhancer project.
+
+<p align="left">
  <a href="LICENSE">
   <img alt="License" src="https://img.shields.io/github/license/LcEnhancer/lc-enhancer-base?label=License">
  </a>
