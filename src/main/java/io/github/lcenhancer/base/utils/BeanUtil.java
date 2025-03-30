@@ -41,7 +41,7 @@ public class BeanUtil {
      */
     @SuppressWarnings("all")
     public static <T> List<T> collectBeans(Class<? extends T> type, String packageName,
-                                           Function<Class, Boolean> classFilter,
+                                           Function<Class<? extends T>, Boolean> classFilter,
                                            Function<Class<? extends T>, T> beanCreator) {
         AssertUtil.nonNull(type, "The bean type cannot be null.");
         AssertUtil.notBlank(packageName, "The beans package name cannot be blank.");
@@ -49,8 +49,10 @@ public class BeanUtil {
         AssertUtil.nonNull(beanCreator, "The bean creator cannot be null.");
         List<Class<?>> classesByPackage = PackageUtil.getClassesByPackage(packageName);
         if (ContainerUtil.isNotEmpty(classesByPackage)) {
-            return classesByPackage.stream().filter(classFilter::apply).map(klass -> beanCreator.apply((Class<?
-                    extends T>) klass)).collect(Collectors.toList());
+            return classesByPackage.stream()
+                    .filter(klass->classFilter.apply((Class<? extends T>) klass))
+                    .map(klass -> beanCreator.apply((Class<? extends T>) klass))
+                    .collect(Collectors.toList());
         }
         return new ArrayList<>();
     }
