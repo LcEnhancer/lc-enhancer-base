@@ -15,8 +15,8 @@ Base java library for LcEnhancer project.
  <a href="https://github.com/lcenhancer/lc-enhancer-base/releases">
   <img alt="GitHub Release" src="https://img.shields.io/github/v/release/lcenhancer/lc-enhancer-base?label=Release">
  </a>
- <a href="https://central.sonatype.com/artifact/io.github.jidcoo/lc-enhancer-base">
-  <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/io.github.jidcoo/lc-enhancer-base?label=Maven%20Central"> 
+ <a href="https://central.sonatype.com/artifact/io.github.lcenhancer/lc-enhancer-base">
+  <img alt="Maven Central Version" src="https://img.shields.io/maven-central/v/io.github.lcenhancer/lc-enhancer-base?label=Maven%20Central"> 
  </a>
  <a href="https://github.com/lcenhancer/lc-enhancer-base/issues?query=is%3Aissue&label=issue">
   <img alt="GitHub Issues" src="https://img.shields.io/github/issues/lcenhancer/lc-enhancer-base?label=Issue">
