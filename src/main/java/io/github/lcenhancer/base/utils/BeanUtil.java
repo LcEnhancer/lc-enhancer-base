@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025-2030 Jidcoo(https://github.com/jidcoo).
+ * Copyright (C) 2025-2030 LcEnhancer(https://github.com/lcenhancer).
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -40,9 +40,9 @@ public class BeanUtil {
      * @return the bean list.
      */
     @SuppressWarnings("all")
-    public static <T> List<T> collectBeans(Class<? extends T> type, String packageName,
-                                           Function<Class<? extends T>, Boolean> classFilter,
-                                           Function<Class<? extends T>, T> beanCreator) {
+    public static <T> List<T> collectBeans(Class<T> type, String packageName,
+                                           Function<Class<T>, Boolean> classFilter,
+                                           Function<Class<T>, T> beanCreator) {
         AssertUtil.nonNull(type, "The bean type cannot be null.");
         AssertUtil.notBlank(packageName, "The beans package name cannot be blank.");
         AssertUtil.nonNull(classFilter, "The class filter cannot be null.");
@@ -50,8 +50,8 @@ public class BeanUtil {
         List<Class<?>> classesByPackage = PackageUtil.getClassesByPackage(packageName);
         if (ContainerUtil.isNotEmpty(classesByPackage)) {
             return classesByPackage.stream()
-                    .filter(klass->classFilter.apply((Class<? extends T>) klass))
-                    .map(klass -> beanCreator.apply((Class<? extends T>) klass))
+                    .filter(klass -> classFilter.apply((Class<T>) klass))
+                    .map(klass -> beanCreator.apply((Class<T>) klass))
                     .collect(Collectors.toList());
         }
         return new ArrayList<>();
