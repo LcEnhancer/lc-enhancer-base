@@ -14,33 +14,30 @@
  * limitations under the License.
  */
 
-package io.github.lcenhancer.base.struct;
+package io.github.lcenhancer.base.impl.io;
+
+import io.github.lcenhancer.base.interfaces.InputProvider;
 
 /**
- * Definition for a binary tree node.
+ * <p>ConsoleInputProvider is a {@link InputProvider} and
+ * extends on {@link BaseBufferReaderInputProvider}.</p>
+ *
+ * <p>ConsoleInputProvider use the {@link System#in}
+ * as input source.
+ * </p>
  *
  * @author Jidcoo
+ * @see BaseBufferReaderInputProvider
+ * @see System#in
  * @since 1.0.0
  */
-public class TreeNode {
+public class ConsoleInputProvider extends BaseBufferReaderInputProvider {
 
-    public int val;
-
-    public TreeNode left;
-
-    public TreeNode right;
-
-    public TreeNode() {
-
-    }
-
-    public TreeNode(int val) {
-        this.val = val;
-    }
-
-    public TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
+    /**
+     * Create a ConsoleInputProvider.
+     */
+    public ConsoleInputProvider() {
+        // Use the stdin as input source.
+        super(System.in);
     }
 }
