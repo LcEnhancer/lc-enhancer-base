@@ -34,9 +34,9 @@ jobs:
     - name: Maven Release
       uses: samuelmeuli/action-maven-publish@v1.4.0
       with:
-        gpg_private_key: ${{ secrets.GPG_PK }}
-        gpg_passphrase: ${{ secrets.GPG_PW }}
-        nexus_username: ${{ secrets.REP_UN }}
-        nexus_password: ${{ secrets.REP_PW }}
-        server_id: ${{ secrets.REP_ID }}
+        gpg_private_key: ${{ secrets.ORG_GPG_PRI_KEY }}
+        gpg_passphrase: ${{ secrets.ORG_GPG_PRI_PW }}
+        nexus_username: ${{ secrets.ORG_MVN_REPOSITORY_UN }}
+        nexus_password: ${{ secrets.ORG_MVN_REPOSITORY_PW }}
+        server_id: ${{ vars.ORG_MVN_REPOSITORY_ID }}
         maven_goals_phases: clean deploy 
